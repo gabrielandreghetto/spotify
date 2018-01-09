@@ -1,0 +1,146 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+nav {
+	background-color: rgba(0,0,0, 0.6);
+	height: 11.5%;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+
+nav ul {
+	float: right;
+	margin-right: 10.25%;
+	margin-top: 2.15%;
+
+}
+
+nav ul li {
+	float: left;
+	list-style-type: none;
+	color: white;
+	margin-left: 28px;
+	font-size: 15px;
+	font-weight: 600;
+}
+
+nav li a:hover {
+	color: #57b55f;
+}
+
+li a {
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	color: white;
+	padding-top: 250px;
+	background-image: url("../img/bkg1.jpg");
+	background-size:100%;
+	background-repeat: no-repeat;
+	padding-bottom: 100px;
+}
+
+.btn{
+	color: white;
+	border-radius: 50px;
+	height: 50px;
+}
+
+.btn-verde{
+	background-color: #57b55f;
+	width:320px;
+	font-weight: 600;
+	border:0px;
+}
+
+.btn-branco{
+	background-color: rgba(0,0,0,0);
+	width:300px;
+	font-weight: bold;
+	border:2px solid white;
+	margin-left: 5px;
+}
+
+.btn-branco:hover{
+	background-color: white;
+	color:black;
+}
+
+.slogan{
+	font-size: 68px;
+	margin-bottom: 50px;
+	font-weight: 600;
+}
+
+.logo{
+	width: 9%;
+	margin-left: 10.5%;
+	margin-top: 1.5%;
+	margin-bottom: 1%;
+}
+
+.guia {
+	width: 100%;
+	opacity: 0.5;
+	z-index: -1;
+	position: absolute;
+}
+
+.descri	{
+	margin-top: 3.5%;
+	margin-left: 10.5%;
+	margin-right: 5%;
+	float: left;
+}
+
+.efeito {
+	font-weight: 900;
+	font-size: 42.5px;
+	margin-bottom: 6%;
+}
+
+.tipos {
+	font-weight: 600;
+	font-size: 20px;
+	margin-bottom: 3.75%;
+}
+
+.mean {
+	margin-bottom: 5.5%;
+	line-height: 25px;
+}
+
+.img-album {
+	margin-top: 3.5%;
+	margin-left: 3.4%;
+	width: 38.5%;
+}
+
+.section2 {
+	padding-bottom: 50px;
+}
+
+.section3 {
+	padding-left: 51%;
+	padding-top: 5.25%;
+	background-image: url("../img/bkg2.jpg");
+	background-size: 100%;
+}
+
+.branco {
+	color: #fff;
+}
